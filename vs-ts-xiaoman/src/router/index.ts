@@ -15,6 +15,11 @@ const router = createRouter({
             component: () => import('../views/async-comp/AsyncComp.vue')
         },
         {
+            path: '/prop-emit',
+            name: 'prop-emit',
+            component: () => import('../views/prop-emit/ParentView.vue')
+        },
+        {
             path: '/about',
             name: 'about',
             // route level code-splitting
