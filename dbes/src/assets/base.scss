@@ -1,0 +1,15 @@
+@import './reset';
+html,
+body,
+#app {
+    height: 100%;
+    font-size: 12px;
+    font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
+}
+div {
+    box-sizing: border-box;
+}
+@mixin height-line($height) {
+    height: $height;
+    line-height: $height;
+}

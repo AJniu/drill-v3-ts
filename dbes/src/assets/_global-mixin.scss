@@ -1,0 +1,14 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin com-fixed($height, $bg) {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: $height;
+    line-height: $height;
+    background-color: $bg;
+}
