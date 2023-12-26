@@ -1,7 +1,49 @@
 :root {
     // 页面主题色
-    --main-theme-bg: #e86753;
+    --main-theme-bg: #e86758;
     --main-theme-color: #4d4d4d;
+
+    // 顶部栏背景色
+    --top-header-bg: #E86758;
+
+    /** 左侧导航栏菜单 ---------------------------------------------------------- start **/
+
+    // 一级导航栏背景色
+    --menu-bg-level_1: #4F4A4A;
+    // 二级导航栏背景色
+    --menu-bg-level_2: #3f3f3f;
+
+    // 导航hover背景色
+    --menu-bg_hover: #634a47;
+
+    // 导航active背景色
+    --menu-bg_active: #E86758;
+
+    // 导航字号
+    --menu-font-size: 14px;
+
+    // 导航文字色值
+    --menu-color: #3bbbc;
+
+    // 导航文字active色值
+    --menu-color_active: #fff;
+
+    /** 左侧导航栏菜单 ---------------------------------------------------------- end **/
+
+    /** 按钮类样式 ---------------------------------------------------------- start **/
+
+    // 按钮字号
+    --btn-font-size: 12px;
+    
+    // 按钮圆角
+    --btn-border-radiu: 2px;
+
+    // 按钮文本色值
+    --btn-color: #e86758;
+
+    // 按钮边框色值
+    --btn-border-color: #e86758;
+
 
     // 按钮类hover色
     --font-hover-color: #fff;
@@ -10,6 +52,8 @@
     // 按钮类active色
     --font-active-color: #fff;
     --btn-active-bg: #f27466;
+
+    /** 按钮类样式 ---------------------------------------------------------- end **/
 
     // alert颜色
     --alert-bg: #ebf3fa;
