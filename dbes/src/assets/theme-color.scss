@@ -9,15 +9,15 @@
     /** 左侧导航栏菜单 ---------------------------------------------------------- start **/
 
     // 一级导航栏背景色
-    --menu-bg-level_1: #4F4A4A;
+    --menu-bg-level__1: #4F4A4A;
     // 二级导航栏背景色
-    --menu-bg-level_2: #3f3f3f;
+    --menu-bg-level__2: #3f3f3f;
 
     // 导航hover背景色
-    --menu-bg_hover: #634a47;
+    --menu-bg__hover: #634a47;
 
     // 导航active背景色
-    --menu-bg_active: #E86758;
+    --menu-bg__active: #E86758;
 
     // 导航字号
     --menu-font-size: 14px;
@@ -26,7 +26,7 @@
     --menu-color: #3bbbc;
 
     // 导航文字active色值
-    --menu-color_active: #fff;
+    --menu-color__active: #fff;
 
     /** 左侧导航栏菜单 ---------------------------------------------------------- end **/
 
@@ -44,16 +44,156 @@
     // 按钮边框色值
     --btn-border-color: #e86758;
 
+    // 按钮背景色
+    --btn-bg: #fff;
+
 
     // 按钮类hover色
-    --font-hover-color: #fff;
-    --btn-hover-bg: #f27466;
+    --font-color__hover: #fff;
+    --btn-bg__hover: #f27466;
 
     // 按钮类active色
-    --font-active-color: #fff;
-    --btn-active-bg: #f27466;
+    --font-color__active: #fff;
+    --btn-bg__active: #de5a4b;
+
+    // 按钮禁用色
+    --font-color__disabled: #fff;
+    --btn-bg__disabled: #d9d9d9;
+
+    // 表格内文字按钮颜色
+    --text-btn-color__tbody: #e86758;
+
+    // 表格内文字按钮
+    --text-btn-bg__tbody: rgba(232, 103, 88, 0.08);
 
     /** 按钮类样式 ---------------------------------------------------------- end **/
+
+    /** input输入框类样式 ---------------------------------------------------------- start **/
+    // input宽度
+    --input-width: 190px;
+
+    // input高度
+    --input-height: 30px;
+
+    // input边框圆角
+    --input-border-radius: 2px;
+
+    // input边框颜色
+    --input-border-color: #e0e0e0;
+
+    // input边框hover颜色
+    --input-border-color__hover: #ccc;
+
+    // input边框focus颜色
+    --input-border-color__focus: #e86758;
+
+    // input边框禁用颜色
+    --input-border-color__disabled: #d9d9d9;
+
+    // input输入框文字颜色
+    --input-text-color: #4c4c4c;
+
+    // input输入框placeholder文字颜色
+    --input-placeholder-color: #ccc;
+
+    /** input输入框类样式 ---------------------------------------------------------- end **/
+
+    /** radio/checkbox类样式 ---------------------------------------------------------- start **/
+   
+    // 单选/多选选中色值
+    --radio-checkbox__checked: #e86758;
+
+    /** radio/checkbox输入框类样式 ---------------------------------------------------------- end **/
+
+    /** form类样式 ---------------------------------------------------------- start **/
+    
+    // 表单项属性颜色
+    --form-item-key-color: #808080;
+
+    // 表单项值颜色
+    --form-item-value-color: #4c4c4c;
+
+    // 表单项属性对齐方式
+    --form-item-text-align: left;
+
+    /** form类样式 ---------------------------------------------------------- end **/
+
+    /** table类样式 ---------------------------------------------------------- start **/
+    
+    // 表格项行高
+    --table-tr-height: 40px;
+
+    // 表头背景
+    --thead-bg: #f4f4f4;
+
+    // 表头字号
+    --thead-font-size: 12px;
+
+    // 表头字体颜色
+    --thead-color: #808080;
+
+    // 表头字体weight
+    --thead-font-weight: 500;
+
+    // 表格项背景色 - 奇数行
+    --tbody-tr-bg__odd: #fff;
+
+    // 表格项背景色 - 偶数行
+    --tbody-tr-bg__even: #fafafa;
+
+    // 表格项hover背景色
+    --tbody-tr-bg__hover: rgba(232, 103, 88, 0.05);
+
+    // 表格项字号
+    --tbody-font-size: 12px;
+
+    // 表格项颜色
+    --tbody-color: #4c4c4c;
+
+
+    /** table类样式 ---------------------------------------------------------- end **/
+
+    /** 分割线类样式 ---------------------------------------------------------- start **/
+    
+    // 面包屑底部分割线
+    --parting-line__breadcrumb: #e5e5e5;
+
+    // 子页面标题分割线
+    --parting-line_childpage: #f2f2f2;
+
+    /** 分割线类样式 ---------------------------------------------------------- end **/
+
+    /** 路由页面标题类样式 ---------------------------------------------------------- start **/
+
+    // 路由页面标题字号
+    --page-header-font-size: 14px;
+
+    // 路由页面标题颜色
+    --page-header-color: #333;
+
+    // 路由页面标题before背景
+    --page-header-before-bg: linear-gradient(90deg, #e86758, #e86758);
+
+    /** 路由页面标题类样式 ---------------------------------------------------------- end **/
+
+    /** 状态提示类样式 ---------------------------------------------------------- start **/
+    
+    // 成功/完成/正常
+    --success-status: #0bcc98;
+
+    // 警告
+    --warning-status: #e86758;
+
+    // 异常
+    --abnormal-status: #ffbf00;
+
+    // 失效/过期
+    --expired-status: #bebebe;
+
+    // 进行中
+    --running-status: #0f92e5;
+
+    /** 状态提示类样式 ---------------------------------------------------------- end **/
 
     // alert颜色
     --alert-bg: #ebf3fa;
