@@ -10,6 +10,7 @@
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "module": "ESNext",
+        "lib": ["ES6"],
         "moduleResolution": "Node"
     }
 }

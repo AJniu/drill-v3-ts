@@ -6,6 +6,6 @@ export const isNullOrUndefined = (val :any) :boolean =>  {
 
 // 精准获取数据类型
 export const getValType = (val :any) :string => {
-    return Object.prototype.toString.call(val).slice(8, -1))
+    return Object.prototype.toString.call(val).slice(8, -1)
 }
 
